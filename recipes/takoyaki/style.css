@@ -19,37 +19,41 @@ img{
 h1{
     font-size: 50px;
     text-align: center;
-
-}
-
-h2{
-    margin: 20px 10px;
-    letter-spacing: 5px;
-    font-weight: bold;
     color: pink;
 }
 
-ol {
-    list-style-type:japanese-formal;
-    margin-left: 10px;
-    padding: 20px;
+h2{
+    color: orange;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+li,p, ol{
+    letter-spacing: 3px;
+    margin: 7px 60px;
+    padding: 10px;
+}
+
+li{
+    padding: 10px;
+}
 a{
     text-decoration: none;
     font-weight: bold;
-    color: orange;
-    font-size: 20px;
+    color: yellow;
+
 }
 
 a:hover{
     color: hotpink;
 }
 
-
-.headContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+ol{
+    list-style-type: upper-roman;
 }
