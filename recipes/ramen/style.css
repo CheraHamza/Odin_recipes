@@ -31,7 +31,6 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 ol{
@@ -39,9 +38,7 @@ ol{
 }
 
 li,p{
-    letter-spacing: 3px;
-    margin: 7px 60px;
-    padding: 10px;
+    margin: 7px 30px;
 }
 
 li{
