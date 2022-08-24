@@ -68,3 +68,9 @@ ol{
     justify-content: center;
     align-items: center;
 }
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
