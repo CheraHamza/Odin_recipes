@@ -10,7 +10,7 @@ html{
     background-color: #154c79;
 }
 
-img{
+img.main{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     width: 75%;
     height: auto;
@@ -35,7 +35,7 @@ ol {
     padding: 20px;
 }
 
-a{
+a.sub{
     text-decoration: none;
     font-weight: bold;
     color: orange;
@@ -50,6 +50,20 @@ a:hover{
 .headContainer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: small;
+    color: black;
+    font-weight: bold;
+}
+
+.copywrite{
+    display: flex;
     justify-content: center;
     align-items: center;
 }

@@ -10,7 +10,7 @@ html{
     background-color: #154c79;
 }
 
-img{
+img.main{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     width: 75%;
     height: auto;
@@ -43,4 +43,22 @@ li,p{
 
 li{
     padding: 10px;
+}
+
+.credit{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: small;
+    color: black;
+    font-weight: bold;
+}
+
+.copywrite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover{
+    color: hotpink;
 }
